@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<script src="js/hidro.min.js"></script>
+<script>
+    //connect two .js(javascript) files to the html(you can add more files to the code (see in next example))
+    hydroJs(
+     'http://code.jquery.com/jquery-1.8.0.js'
+    ,'http://code.jquery.com/jquery-1.7.2.js');
+    
+    //connect four .js(javascript) files to the html
+    hydroJs(
+     'js/bootstrap.min.js'
+    ,'http://code.jquery.com/jquery-1.7.0.js'
+    ,'http://code.jquery.com/jquery-1.7.1.js'
+    ,'http://code.jquery.com/jquery-1.7.2.js');
+    
+    //connect two .css files to the html(you can add more files to the code (see in next example))
+    hydroCss(
+     'css/bootstrap.min.css'
+    ,'css/bootstrap-responsive.min.css');
+
+    //connect three .js(javascript) files to the html
+    hydroCss(
+     'css/style1.css'
+    ,'css/style2.css'
+    ,'css/style3.css');
+</script>
+<title></title>
+</head>
+<body>
+    <div style="text-align: center;" class="hero-unit"><h1>it work! bootstrap loaded!</h1></div>
+    <div style="margin-left:21.425%;margin-right:21.425%;" class="well"><h3>it easy, you write:<br />
+        hydro(type of file: Css/Js)(link to file in inverted commas('') and in brackets).
+        <br /><br />if you want many files to load add after inverted commas:<br />
+        Comma(,) and the link to the file in: inverted commas('').</h3><br />
+        <h2>examples:</h2>
+        <div class="well">
+          <p>
+            &nbsp;hydroJs(</br>
+            &nbsp;'js/bootstrap.min.js'</br>
+            ,'http://code.jquery.com/jquery-1.8.0.js'</br>
+            ,'http://code.jquery.com/jquery-1.7.1.js'</br>
+            ,'http://code.jquery.com/jquery-1.7.2.js'</br>
+            ,'http://code.jquery.com/jquery-1.6.1.js');</br>
+            <blockquote>
+             <p>See the result in result.js.txt</p>
+            </blockquote>
+          </p>
+        </div>
+        <div class="well">
+          <p>
+            &nbsp;hydroCss(</br>
+            &nbsp;'css/style1.css'</br>
+            ,'css/style2.css'</br>
+            ,'css/style3.css');</p></br>
+            <blockquote>
+             <p>See the result in result.css.txt</p>
+            </blockquote>
+        </div></br>
+        <blockquote>
+           <p>please, see the code of page in chrome and in notepad.</p>
+           <p>created by misha konviser, with help from ruslan konviser (Evereq).</p>
+        </blockquote>
+    </div>
+</body>
+</html>
