@@ -4,7 +4,7 @@
 ##Idial For Add many Library To The Page
 
 This library does not depend on jquery and it Reduces the code needed to connect to external JS or CSS files.
-Total should connect the Hidro.js to the page and write some words in the tag script.
+Total should connect the Hydro.js to the page and write some words in the tag script.
 
 ##How To Use?
 
